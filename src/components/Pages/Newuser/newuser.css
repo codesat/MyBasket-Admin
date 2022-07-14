@@ -1,0 +1,66 @@
+.newuser{
+    flex: 4;
+    background-color: #205D84;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.newusertitle{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.newuserform{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newuseritem{
+    margin-right: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.newuseritem > label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.newuseritem> input{
+    outline: none;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.newusergender > input{
+    margin-top: 15px;
+    outline: none;
+}
+.newusergender > label{
+  margin: 10px;
+  font-size: 18px;
+  color: white;
+}
+.newuserselect{
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+.newuserbtn{
+    width: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    border: none;
+    background-color: #1E355C;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 35px;
+    cursor: pointer;
+    font-size: 15px;
+}

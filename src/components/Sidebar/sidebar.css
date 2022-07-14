@@ -1,0 +1,49 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh-50px);
+    background-color: #181745;
+    position: sticky;
+    top: 50px;
+}
+.sidebarwrapper{
+    padding: 20px;
+    color: #a9abb1;
+
+}
+.sidebarmenu{
+    margin-bottom: 10px;
+}
+.sidebartitle{
+    font-size: 13px;
+    color: white;
+    font-weight:500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidebarlist{
+    list-style: none;
+    padding: 5px;
+}
+.sidebarlistitem{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    border-radius:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.sidebarlistitem.active ,
+
+ .sidebarlistitem:hover{
+    color: white;
+    background-color: #216B91;
+}
+
+.sidebaricon{
+    margin-right: 10px;
+    font-weight:lighter;
+    font-size: 25px !important;
+}
